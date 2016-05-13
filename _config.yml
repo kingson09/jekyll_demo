@@ -1,1 +1,38 @@
+# Site settings
+title: Kingson09's Blog
+email: 254826057@qq.com
+description: "Python,HTML,CSS,Machine Leaning"
+permalink: /:year/:month/:day/:title.html
 baseurl: /jekyll_demo
+author: "Kingson09"
+
+# Build settings
+# permalink: date
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
+
+#duoshuo
+  comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : taizilongxu
+
+navigations:
+  - title: About
+    class: fa fa-list-ul
+    href: /about/
+  - title: Archive
+    class: fa fa-tags
+    href: /archive/
+  - title: Categories
+    class: fa fa-user
+    href: /categories/
+  - title: Tags
+    class: fa fa-film
+    href: /tags/
+  - title: Rss
+    class: fa fa-rss
+    href: /atom.xml
